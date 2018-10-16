@@ -8,14 +8,14 @@ g++, make, libgcrypt-dev.
 
 
 # Static rewriter
-Specify which file to rewrite in [this line](). Then simply run
+Specify which file to rewrite in [this line](https://github.com/nanoPiMPC/nanoPI/blob/351a35c6387114cf3b280095051c33293e1362c1/Rewriter/Makefile#L3). Then simply run
 
 ```sh
 $ make
 ```
 
 # Compile:
-1. Replace the IP address and number of parties [here]().
+1. Replace the IP address and number of parties [here](https://github.com/nanoPiMPC/nanoPI/blob/351a35c6387114cf3b280095051c33293e1362c1/MPC/src/Common/Network_IO.hpp#L25).
 2. Run
 
 ```sh
