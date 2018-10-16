@@ -22,7 +22,6 @@
 #include "ThreadPool.h"
 #endif
 #include "util.hpp"
-#ifndef Lab
 #define MaxPartyNum 8
 #define Address1 "127.0.0.1"
 #define Address2 "127.0.0.1"
@@ -32,25 +31,7 @@
 #define Address6 "127.0.0.1"
 #define Address7 "127.0.0.1"
 #define Address8 "127.0.0.1"
-#else
-#define MaxPartyNum 16
-#define Address1 "172.31.27.96"
-#define Address2 "172.31.19.213"
-#define Address3 "172.31.19.186"
-#define Address4 "172.31.25.13"
-#define Address5 "172.31.29.91"
-#define Address6 "172.31.29.252"
-#define Address7 "172.31.23.194"
-#define Address8 "172.31.17.168"
-#define Address9 "172.31.77.190"
-#define Address10 "172.31.79.189"
-#define Address11 "172.31.74.232"
-#define Address12 "172.31.73.24"
-#define Address13 "172.31.74.158"
-#define Address14 "172.31.64.240"
-#define Address15 "129.79.242.115"
-#define Address16 "129.79.242.116"
-#endif
+
 // Network API Warpper
 class Network{
 private:

@@ -27,7 +27,7 @@ int main(int argc,char ** argv)
 {
     auto t=clock_start();
     printf("Party Num=%d\n",PartyNumber);
-    if(argc<=2) return 0;
+//    if(argc<=2) return 0;
     int port;
     int MyID;
     MyID=atoi(argv[1]);
